@@ -10,10 +10,10 @@ function createBoxes(amount) {
 
     for (let i = 0; i < amount; i++) {
         const color = getRandomHexColor();
-        html += `<div style='
+        html += `<div style="
             width: ${size}px; 
             height: ${size}px; 
-            background-color: ${color};'>
+            background-color: ${color};">
         </div>`;
         size += 10;
     }
